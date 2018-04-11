@@ -1,0 +1,521 @@
+
+
+html,
+body {
+margin: 0;
+padding: 0;
+height: 100%;}
+
+.k,.b,.q,.t00 {
+justify-content: center;
+align-content: flex-start;
+align-items: flex-start;}
+
+.k > div,
+.c0,.c0 > div,
+.d0,.d0 > div,
+.k00,.q > div,
+.k00 > div,
+.t00 > div,
+.t00 > div > div {
+justify-content: inherit;
+align-content: inherit;
+align-items: inherit;
+align-self: stretch;}
+
+#kube div > span,
+.kaos0 span {
+padding: 2px 2px;
+/* padding: 1px 2px 1px 2px; */
+text-align: center;
+font-family: Arial,Verdana;}
+
+.b0 > div,
+.b00 > div
+.l0 > div {
+padding: 6px 6px;
+text-align: center;
+font-family: Verdana,Arial;}
+
+.t00 > div._ + div,
+.t000 > div {
+padding: 6px 6px;
+font-family: Arial,Verdana;
+display: block;}
+
+.d0,.c0,.c000,
+.k00 > ._ + div {
+outline-offset: -2px;
+outline: 1px solid DarkGray;}/* ok */
+
+.c0 > div,
+.d0 > div,
+.c000 > div {
+outline: 1px solid White;
+outline-style: inherit;
+outline-offset: inherit;}/* ok */
+
+.b0.r,
+.b0:hover,
+.b00.r,
+.b00:hover,
+.s0 > div > div.r,
+.s0 > div > div:hover,
+.s00 > div > div.r,
+.s00 > div > div:hover {
+box-shadow: 0 0 0px 1px Black inset;}/* ok */
+
+.d0,.c0,.c000 {
+border: 1px solid Transparent;
+background-clip: padding-box;}/* ok */
+
+#kube1,
+#preview0 span {
+border: 1px solid Gray;
+background-color:rgb(255,255,255);}/* ok */
+
+#kube div > span,
+.kaos0 span,
+.kaos .k > span {
+border: 1px solid Black;
+background-color: rgb(255,255,255);}/* ok */
+
+.b,div._,
+div._ + div,
+.t00 > div._ ~ div {
+width: calc(100% + 2px);
+margin-left: calc(-100% - 1px);/* */
+margin-right: -1px;
+margin-top: -1px;
+margin-bottom: -1px;
+pointer-events: none;}/* - */
+
+div._ {
+margin-left: -1px;
+align-self: stretch;
+position: relative;
+display: flex;}
+
+div._ + div {
+flex-wrap: wrap;/* */
+position: relative;
+display: flex;}
+
+.k0 > div._ + div > div {
+width: 100%;
+margin-left: -100%;
+margin-right: 0;
+margin-top: 0;
+margin-bottom: 0;
+display: block;
+position: relative;}
+
+.t00 > div._ + div {
+pointer-events: auto;}
+
+.k0 > div._ + div {
+margin-left: calc(-0% + 1px);
+z-index: 0;}
+
+
+/* ------------------------------------------------------ */
+
+
+
+.k {
+margin: 1px;
+left: calc(50% - 1px);
+width: calc(100% - 2px);
+transform: translate(-50%,0);
+font-family: Verdana,Arial;/* */
+align-self: flex-start;
+position: relative;
+display: flex;}
+
+.b {
+left: 50%;
+margin-left: 0;/* */
+transform: translate(-50%,0);
+font-family: Verdana,Arial;/* */
+align-self: flex-start;
+position: absolute;
+flex-wrap: wrap;
+display: flex;}
+
+.k0 {
+margin: 1px;
+background-color: rgb(255,255,255);
+box-shadow: 0 0 0px 1px Black inset;
+overflow: hidden;/* ! */
+pointer-events: auto;
+position: relative;
+display: none;}
+
+.c0 {
+position: relative;
+flex-wrap: wrap;
+display: none;}
+
+.c0 > div {
+width: 100%;
+position: relative;
+flex-wrap: wrap;
+display: flex;}
+
+.b0,.b00 {
+margin: 1px;
+background: rgb(240,240,240);
+box-shadow: 0 0 0px 1px DarkGray inset;
+pointer-events: auto;
+position: relative;
+display: none;}
+
+.b00 {
+position: absolute;}
+
+.b0 > div,
+.b00 > div {
+font-size: 14px;
+font-family: Verdana,Arial;
+touch-action: none;
+min-height: inherit;
+cursor: default;}
+
+.d0 {
+cursor: default;
+position: relative;
+display: none;}
+
+.d0 > div {
+width: 100%;
+position: relative;
+flex-wrap: wrap;
+display: flex;}
+
+.s0,.s00 {
+margin-bottom: -1px;
+background: rgb(255,255,255);
+box-shadow: 0 0 0px 1px DarkGray inset;
+align-self: flex-start;
+pointer-events: auto;
+position: absolute;
+display: none;}
+
+.s0 > div,
+.s00 > div {
+width: 20%;/* */
+max-width: 100%;
+min-width: 20%;/* */
+height: 100%;
+touch-action: none;
+position: absolute;}
+
+.s0 > div > div,
+.s00 > div > div {
+width: 100%;
+height: 100%;
+background: rgb(240,240,240);
+box-shadow: 0 0 0px 1px DarkGray inset;
+position: relative;
+display: block;}
+
+.l0 {
+margin-bottom: -1px;
+background-color: rgb(255,255,255);
+box-shadow: 0 0 0px 1px DarkGray inset;
+align-self: flex-start;
+text-align: center;
+position: absolute;
+display: none;}
+
+.l0 > div,
+.l00 > div {
+height: 100%;
+font-size: 14px;
+font-family: Arial,Verdana;
+/* min-height: inherit; */}
+
+.q {
+margin: 1px;
+overflow: hidden;
+position: relative;
+display: flex;}
+
+.q > div {
+width: 100%;
+position: relative;
+display: block;} 
+
+.k00 {
+width: 100%;
+min-height: 100%;
+pointer-events: auto;
+position: relative;
+display: flex;}
+
+.t00 {
+margin: 1px;
+background-color: rgb(255,255,255);
+box-shadow: 0 0 0px 1px DarkGray inset;
+pointer-events: auto;
+position: relative;
+display: flex;}
+
+.t000 {
+margin: 1px;
+padding: 0px 6px;/* */
+background-color: rgb(255,255,255);
+box-shadow: 0 0 0px 1px Black inset;
+pointer-events: auto;
+position: relative;
+display: flex;}
+
+.c000 {
+margin: 1px;
+position: relative;
+flex-wrap: wrap;
+display: flex;}
+
+.t000 > div {
+width: 100%;}
+
+.u000 {
+border: 2px solid transparent;
+position: absolute;}
+
+
+
+
+
+/* ----------------------- */
+
+
+
+
+
+
+#kube,
+#kube0 {
+left: 50%;
+top: 2px;
+/* !! */width: 500px;
+min-width: 500px;
+min-height: 500px;
+/* margin-bottom: 4px; */
+transform: translate(-50%,0);
+transform-origin: top;
+position: absolute;}
+
+#kube {
+outline-offset: -2px;
+border: 1px solid Transparent;
+background-clip: padding-box;
+box-shadow: 0 0 0px 1px DarkGray inset,
+0 0 0px 2px White inset;
+background-clip: padding-box;}
+
+#kube0 {
+font-family: Arial,Verdana;
+font-size: 14px;
+display: none;}
+
+#kube1 {
+min-height: 50px;
+width: 100%;
+position: absolute;}
+
+.kaos > span {
+background-color: Black;
+opacity: 0.02;}
+
+
+
+
+/*#panel {
+left: 2px;
+right: 2px;
+top: 2px;
+max-width: calc(100% - 16px);
+position: fixed;}
+
+#panel0 {
+left: 0px;
+top: 0px;
+display: flex;}
+
+#panel0 > div {
+width: 100px;
+margin: 1px;
+position: relative;
+justify-content: center;
+align-items: center;
+display: flex;}
+
+#panel > span {
+bottom: -20px;
+width: 100%;
+height: 20px;
+cursor: e-resize;
+position: absolute;}
+
+#panel0 span {
+position: relative;} */
+
+
+
+
+#scene {
+left: 0px;
+top: 0px;
+bottom: 0px;
+max-width: 226px;
+position: fixed;}
+
+#scene0 {
+right: 0px;
+top: 0px;
+bottom: 0px;
+width: 222px;
+margin: 1px;
+position: absolute;
+overflow: auto;}
+
+#scene0 > div:hover,
+#preview0 > div:hover {
+box-shadow: 0 0 0px 2px Black inset;}
+
+#scene0 > div,
+#preview0 > div {
+width: 200px;
+min-width: 200px;
+height: 200px;
+min-height: 200px;
+margin: 2px;
+left: 0px;
+transform: translate(0,0);
+overflow: hidden;
+display: block;
+position: relative;}
+
+#scene > span {
+right: -20px;
+width: 20px;
+height: 100%;
+cursor: e-resize;
+position: absolute;}
+
+#scene0 span {
+right: 0px;
+bottom: 0px;
+position: absolute;}
+
+
+
+
+
+#preview {
+right: 2px;
+top: 2px;
+bottom: 2px;
+max-width: 226px;
+position: fixed;}
+
+#preview0 {
+left: 0px;
+top: 0px;
+bottom: 0px;
+margin: 2px;
+width: 222px;
+position: absolute;
+overflow: auto;}
+
+#preview > span {
+left: -20px;
+height: 100%;
+width: 20px;
+cursor: w-resize;
+position: absolute;}
+
+#preview0 span {
+left: 0px;
+bottom: 0px;
+position: absolute;}
+
+
+
+
+/* ----------------------------- */
+
+.action {
+border: 2px solid Black;}
+
+.kaos .k {
+background-color: White;}
+
+.kaos .k > span {
+padding: 1px 3px;}
+
+#kube div > span,
+.kaos0 span {
+background-color: White;
+pointer-events: none;
+position: absolute;}
+
+#kube .k0 > span,
+.k > span,
+.c0 > span,
+.b0 > span,
+.b00 > span,
+.s0 > span,
+.s00 > span,
+.l0 > span {
+min-width: 24px;}
+
+#kube .k00 > span,
+#kube .t00 > span {
+min-width: 32px;}
+
+#kube .k0 > span {
+left: 0px;
+top: 0px;}
+
+.c0 > span {
+left: 0px;
+top: 0px;}
+
+.b0 > span,
+.b00 > span,
+.s0 > span,
+.s00 > span,
+.l0 > span {
+right: 0px;
+top: 0px;}
+
+.d0 > span {
+right: 0px;
+top: 0px;}
+
+#kube .k00 > span,
+#kube .t00 > span {
+left: 0px;
+bottom: 0px;}
+
+.t000 > span {
+right: 0px;
+bottom: 0px;}
+
+.c000 > span {
+right: 1px;
+bottom: 1px;}
+
+#kube .k00 > span {
+transform-origin: left bottom;}
+
+* {flex-shrink: 0;
+box-sizing: border-box;
+background-repeat: no-repeat;
+background-position: center;
+object-fit: cover;
+/* contain */}
+
+
